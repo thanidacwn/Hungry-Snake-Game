@@ -56,11 +56,11 @@ The graphical output it's implement the `draw` method in your `Snake.py` and
 
 Enter name
 
-![screen](picture/Enter name.png)
+![screen](picture/EnterName.png)
 
 start game
 
-![screen](picture/start game.png)
+![screen](picture/StartGame.png)
 ---
 
 ## Required libraries and tools
@@ -76,7 +76,7 @@ All class of program
 * `Snake` : Create head and tail object
 * `Food` : Create food of snake
 
-![UML class diagram](picture/UML class diagram.png)
+![UML class diagram](picture/UMLClassDiagram.png)
 
 ---
 
