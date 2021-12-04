@@ -88,10 +88,12 @@ class Snake:
     def update_tail(self):
         """ Update the position in list of tail."""
         for i in range(len(self.tail) - 1, 0, -1):
+            # each tail go to a new positon except the first one
             x = self.tail[i - 1].xcor()
             y = self.tail[i - 1].ycor()
             self.tail[i].goto(x, y)
         if len(self.tail) > 0:
+            # if tail position near head position that will go to new position
             x = self.head.xcor()
             y = self.head.ycor()
             self.tail[0].goto(x, y)
